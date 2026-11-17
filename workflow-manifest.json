@@ -447,6 +447,37 @@
       "docs": [
         "@shotcraft"
       ]
+    },
+    "green_dashed_highlight": {
+      "stages": [
+        "motion_sound_plan",
+        "polish"
+      ],
+      "docs": [
+        "references/green-dashed-highlight.md",
+        "assets/effects/green-dashed-highlight.mjs"
+      ]
+    },
+    "marker_underline": {
+      "stages": [
+        "motion_sound_plan",
+        "polish"
+      ],
+      "docs": [
+        "references/marker-underline-title.md",
+        "references/fonts.md",
+        "assets/effects/marker-underline.mjs"
+      ]
+    },
+    "prompt_typing": {
+      "stages": [
+        "motion_sound_plan",
+        "polish"
+      ],
+      "docs": [
+        "references/prompt-typing-demo.md",
+        "assets/effects/prompt-typing.mjs"
+      ]
     }
   },
   "external_skills": {

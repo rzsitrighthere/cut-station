@@ -9,6 +9,7 @@ Original unmodified font files and copyright/license notices are in assets/fonts
 - Smiley Sans / 得意黑: atelier-anchor/smiley-sans v2.0.1; SIL Open Font License 1.1; retain SmileySans-OFL.txt.
 - Noto Sans SC: Google Fonts; SIL Open Font License 1.1; retain NotoSansSC-OFL.txt.
 - Space Grotesk: Google Fonts; SIL Open Font License 1.1; retain SpaceGrotesk-OFL.txt.
+- ZCOOL QingKe HuangYou / 站酷庆科黄油体 uses the original Google Fonts file, Version 1.000, under SIL Open Font License 1.1. Retain ZCOOLQingKeHuangYou-OFL.txt and its project copyright notice. See [official source](https://github.com/google/fonts/tree/main/ofl/zcoolqingkehuangyou).
 
 ## Recommended projects (not bundled)
 
