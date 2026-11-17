@@ -7,6 +7,15 @@
 | **得意黑 Smiley Sans** | 首选钩子、大标题、关键词、适合的短字幕；窄斜字形有设计感 | `SmileySans-Oblique.ttf`，网页可选 `SmileySans-Oblique.ttf.woff2` |
 | Noto Sans SC | 中文正文、密集信息、需要长时间阅读的字幕和操作说明 | `NotoSansSC-Variable.ttf`，可变字重100–900 |
 | Space Grotesk | 英文标题、数字、少量科技感标签；不覆盖中文 | `SpaceGrotesk-Variable.ttf`，可变字重300–700 |
+| **站酷庆科黄油体 ZCOOL QingKe HuangYou** | “双端互通”参考同款窄长圆角标题、荧光笔下划线标题、短关键词 | `ZCOOLQingKeHuangYou-Regular.ttf`，常规字重400 |
+
+## “双端互通”同款字体
+
+按参考里的“双端互通”和“人不在电脑边”逐字形比对，匹配字体为**站酷庆科黄油体**。圆角端点、窄长字面、“双”的交叉结构、“端”的分离笔画和“通”的圆点与内孔均匹配。此结论来自画面字形比对，参考录屏没有字体元数据。
+
+点名“双端互通同款字体”“黄油体”或“站酷庆科黄油体”时，使用本包里的真实字体文件。它可单独用于其他标题文字，也可与 [荧光笔下划线标题](marker-underline-title.md) 组合。用常规400字重、正常字形，不额外合成粗体或倾斜。默认按自然字宽排版，根据本期最长标题检查字号、间距与换行。它是可选标题字体，选择时仍按本期控制实际字体家族数量。
+
+本文件新增字体于2026-11-11从Google Fonts官方仓库取得，版本为1.000，许可证为SIL OFL 1.1。字体与原始许可均已内嵌，文件哈希见manifest。引用工程时把真实文件与许可证一起复制，等待字体载入后再测量标题。调用示例“章节标题使用‘双端互通’同款的站酷庆科黄油体，标题文字改成‘自动生成’，不加下划线”。
 
 得意黑原字形已倾斜，不额外叠CSS italic/skew。标题优先它，密集正文可选Noto Sans SC；不强求所有字都用展示字体。一片最多三种家族，同级统一，字幕不随每条变化。第三款是可选角色，不要求每片用满三款。
 
@@ -30,6 +39,13 @@
   font-display: block;
 }
 @font-face {
+  font-family: "ZCOOL QingKe HuangYou Local";
+  src: url("/fonts/ZCOOLQingKeHuangYou-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
   font-family: "Space Grotesk Local";
   src: url("/fonts/SpaceGrotesk-Variable.ttf") format("truetype");
   font-weight: 300 700;
@@ -44,10 +60,11 @@
 
 ## 来源与许可
 
-2026-10-23从以下官方仓库获取，许可证与字体一同内嵌：
+字体与各自的原始许可证一同内嵌，官方来源如下。获取日期、版本和文件哈希见manifest。
 
 - [得意黑官方发布 v2.0.1](https://github.com/atelier-anchor/smiley-sans/releases/tag/v2.0.1)，`SmileySans-OFL.txt`
 - [Google Fonts Noto Sans SC](https://github.com/google/fonts/tree/e7db6ca603fd4862010383ff17ffd6cc4ffac1c0/ofl/notosanssc)，`NotoSansSC-OFL.txt`
 - [Google Fonts Space Grotesk](https://github.com/google/fonts/tree/e7db6ca603fd4862010383ff17ffd6cc4ffac1c0/ofl/spacegrotesk)，`SpaceGrotesk-OFL.txt`
+- [Google Fonts ZCOOL QingKe HuangYou](https://github.com/google/fonts/tree/main/ofl/zcoolqingkehuangyou)，`ZCOOLQingKeHuangYou-OFL.txt`，新增获取日期2026-11-11
 
-三款按SIL Open Font License 1.1随包再分发，保留版权及许可。增加其他字体时也保存官方来源、版本、实际文件和许可；不把来源不明的“免费字体”直接内嵌，不把系统商业字体复制入此包。
+以上字体按SIL Open Font License 1.1随包再分发，保留版权及许可。增加其他字体时也保存官方来源、版本、实际文件和许可；不把来源不明的“免费字体”直接内嵌，不把系统商业字体复制入此包。
