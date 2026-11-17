@@ -58,6 +58,31 @@
       "file_bytes": 136676,
       "license_file_sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72",
       "license_file_bytes": 4495
+    },
+    {
+      "name": "ZCOOL QingKe HuangYou",
+      "zh_name": "站酷庆科黄油体",
+      "aliases": [
+        "双端互通同款字体",
+        "参考窄长圆角标题字"
+      ],
+      "file": "ZCOOLQingKeHuangYou-Regular.ttf",
+      "license_file": "ZCOOLQingKeHuangYou-OFL.txt",
+      "version": "Version 1.000",
+      "downloaded_at": "2026-11-11",
+      "source": "https://github.com/google/fonts/tree/main/ofl/zcoolqingkehuangyou",
+      "upstream_source_commit": "c9dac424b0a9f47d3b113cff4a4922f632d82c94",
+      "download": "https://raw.githubusercontent.com/google/fonts/main/ofl/zcoolqingkehuangyou/ZCOOLQingKeHuangYou-Regular.ttf",
+      "roles": [
+        "condensed rounded Chinese titles",
+        "marker underline titles",
+        "short emphasis"
+      ],
+      "license": "SIL Open Font License 1.1",
+      "reference_match": "visual glyph comparison of 双端互通 and 人不在电脑边; original video font metadata unavailable",
+      "file_sha256": "54f0c0df4308cd74cd0f2fd3494ae054dbc4a1fd6fa7d71f4807eb4cdd8b4136",
+      "file_bytes": 8328684,
+      "license_file_sha256": "f1bce31b817dee01c1e4ef8bc45d8ecb95f01f4abbf0a985007cb3cd0fd8123d"
     }
   ]
 }

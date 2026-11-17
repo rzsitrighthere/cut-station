@@ -30,6 +30,10 @@ Turn real footage and a clear brief into an editable, reviewable video. This is 
 - Display captions follow semantic units, normally at most two short sentences. Use [caption guidance](references/script-subtitles.md) for the current language. These display constraints do not split narration input.
 - Read selected shot cards, exact implementations and sound attribution. Choose one main timeline. Optional skills do not justify extra ASR, duplicate pipelines or motion in protected reading sections.
 - Use coherent hierarchy, typography, material and purposeful motion. Actually load fonts and check readability. Neon is an optional shared preset; current art direction takes precedence.
+- For requested UI emphasis, use [动态虚线高亮框 / green-dashed-highlight](references/green-dashed-highlight.md), including “绿色动态虚线高亮框”, “自定义颜色虚线框” and “透明绿底虚线框”. Border/fill colors and their opacities can be set independently. Read its guide and reuse the frame-driven implementation.
+- For “双端互通同款字体”, “站酷庆科黄油体” or “荧光笔下划线标题”, read [marker titles](references/marker-underline-title.md) and [fonts](references/fonts.md). The bundled font can be reused with other text, independently of the underline.
+- For “提示词输入演示” or “对话框打字效果”, read [prompt typing](references/prompt-typing-demo.md). Preserve the supplied prompt, show typing/cursor and a full-text reading hold using deterministic timeline timing.
+- Copy-ready invocation examples for these presets are in [effect prompts](references/effect-prompts.md).
 
 ## Stage references
 

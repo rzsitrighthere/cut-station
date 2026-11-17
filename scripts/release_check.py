@@ -9,7 +9,7 @@ import sys
 from urllib.parse import unquote
 
 ROOT = Path(__file__).resolve().parents[1]
-TEXT_SUFFIXES = {".md", ".py", ".json", ".yaml", ".yml", ".txt", ".csv", ".srt", ".svg"}
+TEXT_SUFFIXES = {".md", ".py", ".mjs", ".json", ".yaml", ".yml", ".txt", ".csv", ".srt", ".svg"}
 
 
 def inspect(root=ROOT):
