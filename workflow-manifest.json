@@ -365,6 +365,15 @@
     }
   },
   "features": {
+    "mg_visual_recipes": {
+      "stages": [
+        "motion_sound_plan",
+        "polish"
+      ],
+      "docs": [
+        "references/mg-visual-recipes.md"
+      ]
+    },
     "fonts": {
       "stages": [
         "polish"
