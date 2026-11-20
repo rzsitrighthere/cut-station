@@ -1,9 +1,9 @@
 ---
 name: cut-station
-description: Create and edit source-grounded tutorials, product demos and other videos with a coding agent. Use for scripts, optional narration, measured subtitles, screen-recording edits, motion graphics, previews and verified exports. Supports partial edits and protects approved material.
+description: Create and edit source-grounded tutorials, product demos and other videos with a coding agent. Use for scripts, optional narration, measured subtitles, screen-recording edits, motion graphics, adaptive effects and typography (“使用适合的动效”), previews and verified exports. Supports partial edits and protects approved material.
 license: MIT
 metadata:
-  version: "0.1.0-rc.1"
+  version: "0.1.0-rc.2"
 ---
 
 # Xiaocaie Cut Station · 小菜蛾剪辑工坊
@@ -18,6 +18,10 @@ Turn real footage and a clear brief into an editable, reviewable video. This is 
 4. Check [agent compatibility](references/agent-compatibility.md). Choose `jianying`, `existing` or `none` explicitly. Subtitles are independent: `--subtitles none` supports visual-only projects. No narration can still include approved music/SFX. Without real speech, caption timing is visual/provisional, never fabricated measured speech.
 5. Select only the needed [route](workflow-manifest.json): script / subtitles / voice_input / voice / full / preview / edit / font_only / export / asset_package. A preview request does not authorize full export or publication; skill maintenance does not authorize changing a video.
 6. Use `scripts/workflow_guard.py` with project-local state. Choose `engine_remotion` or `engine_hyperframes` before writing engine code; add `source_processing` and `shotcraft` only when actually used and installed. Resolve optional skills through host roots or `--skill-path KEY=PATH`. Declining recommendations leaves base writing/timing/validation available. Missing an engine limits only dependent rendering; explain the gap and continue independent work.
+
+## “使用适合的动效”
+
+制作、预览或修改视频画面时，用户说「使用适合的动效」「用合适的特效」「根据素材搭配动效」或作同义授权，按 [素材驱动的动效选型](references/adaptive-motion.md) 执行。新项目初始化带 `--features adaptive_motion` 并保留本期用到的其他特性；已有项目用 `revise --from-stage motion_sound_plan --adaptive-motion --reason …`，按本次修改范围重核。以实际素材为依据，逐主段分别评估镜头/转场和文字，对合适项调用已选组件并在工程中落实。两类都要判断；留静、直切或文字保持现状时写明该段具体依据，遵守用户明确的效果和保护约束。质量方案、当前画面取证和独立审查缺一项即不能通过相应阶段。
 
 ## Production invariants
 
